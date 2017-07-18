@@ -1,0 +1,81 @@
+.clear {clear:both;}
+.form {margin: 0 auto;border: 1px solid black;}
+.installwp {padding: 10px;}
+.form_row {padding: 15px;margin: 0 auto;position:relative}
+.form_row:after {content: "";display: block;clear: both;}
+.form_row label {width: 32%;display: block;float:left;}
+.form_row input {width: 50%;}
+.form_row input[type="submit"] {width: 10%;text-align: center;}
+.submit_btn {text-align: center;clear:both}
+
+.loader {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 2s linear infinite;
+    display: none;
+}
+.loader.active {display: block;}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+
+/* Added on 27/06/2017 */
+
+.fill_content, .plugin_content {float:left;width:50%;}
+.plugin_content {overflow: auto;height: 450px;}
+.search_plugin input {width:40%;float:left}
+.search_plugin input[type=button] {width: 20%;margin-left: 10px;}
+.search_plugin label {width:20%;}
+.loader {position: absolute;right: 75px;top: 8px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
